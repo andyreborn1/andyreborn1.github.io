@@ -9,5 +9,8 @@ func main() {
 			"message": "pong",
 		})
 	})
-	_ = r.Run()
+
+	port := "8080"
+
+	_ = r.Run(":" + port)
 }
